@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs"> 
+<head>
+    
+    
+    <meta charset="utf-8">
+    <meta name="description" content="Válečné konflikty starověku a středověku.">
+    <meta name="author" content="Rostislav Hořava">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Válečné konflikty</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+
+<body>
+   <div class="container">
+  <div class="item-a"><div class="nadpis">JavaScript</div>
+  
+       </div>
+    <div class="item-b"><p></p>
+        
+         <h1>Měřítko - výpočty</h1>
+        <br />
+    
+        <div class="formular">
+        
+        <h2 id="nadpis1_meritko">Výpočet reálné vzdálenosti</h2>
+    
+        <form>
+            
+       
+            
+            Měřítko mapy: 1:
+         <input id="meritko" type="text" />
+            
+            <br />
+        
+        Vzdálenost na mapě (cm):
+        <input id="vzdalenost" type="text"/>
+        
+        <br />
+        <input type="button" value="Vypočítat" onclick="skutecna_vzdalenost()"/>
+        <br />
+        
+        <p id="vysledek"></p>
+        <br />
+           
+</form>
+    <h3 id="nadpis2_meritko">Výpočet vzdálenosti na mapě</h3>
+    <form>
+        Měřítko mapy: 1:
+        <input id="meritko1" type="text"/>
+        <br />
+        Skutečná vzdálenost (km):
+        <input id="vzdalenost1" type="text">
+        <br />
+        <input type="button" value="vypočítat" onclick="vzdalenost_na_mape()">
+        <br />
+        
+        <p id="vysledek1"></p>
+        <br />
+    </form>
+    <h4 id="nadpis3_meritko">Výpočet měřítka</h4>
+    <form>
+        Skutečná vzdálenost (km):
+        <input id="vzdalenost2" type="text">
+        <br />
+        Vzdálenost na mapě (cm):
+        <input id="vzdalenost_mapa" type="text">
+        <br />
+        <input type="button" value="vypočítat" onclick="vypocet_meritka()">
+        <br />
+        
+        <p id="vysledek2"></p>
+        
+    </form>
+            
+        </div>
+        
+    <script src="js/script.js"></script> 
+       
+    </div>
+    <div class="item-c">
+        <div class="menu">
+        <ul>
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="index1.html">Starověk</a></li>
+          <li><a  href="stredovek.html">Středověk</a></li>
+          <li><a  href="web_sluzby.html">Webové služby</a></li>
+          <li><a class="active" href="js.html">JavaScript</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="item-d"><p>&#9400; Rostislav Hořava </p>
+       <img src="img/logo.svg" width="26px" height="29px" alt="logo"></div>
+</div>
+    </body>
+
+</html
